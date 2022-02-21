@@ -155,7 +155,7 @@ Note, however, that many of the tips listed in this article are common-sense tec
 
 Make the JavaScript scripts such that they are compatible with both the [async](/en-US/docs/Web/HTML/Element/script#attributes) and the [defer](/en-US/docs/Web/HTML/Element/script#attributes) attributes, and use [async](/en-US/docs/Web/HTML/Element/script#attributes) whenever possible, especially if you have multiple script elements.
 
-With that, the page can stop rendering while JavaScript is still loading. Otherwise, the browser will not render anything that is after the script elements that do not have these attributes.
+With that, the page can render while JavaScript is still loading. Otherwise, the browser will not render anything that is after the script elements that do not have these attributes.
 
 Note: Even though these attributes do help a lot the first time a page is loaded, you should use them but not assume they will work in all browsers. If you already follow all JavaScript best practices, there is no need to change your code.
 
